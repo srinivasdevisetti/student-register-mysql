@@ -17,17 +17,20 @@ public class ui {
 		switch (ch) {
 		case 1:
 			s.print();
+			System.out.println("-------------------------------------------------------------");
 			menu();
 			break;
 		case 2:
 			s.add();
+			System.out.println("-------------------------------------------------------------");
 			menu();
 			break;
 		case 3:
 			s.remove();
+			System.out.println("-------------------------------------------------------------");
 		menu();
 		}
-	}
+	}       
 	public static void main(String[] args) {
 		menu();
 	}
