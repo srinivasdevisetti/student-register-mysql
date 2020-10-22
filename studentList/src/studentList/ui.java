@@ -18,16 +18,19 @@ public class ui {
 		case 1:
 			s.print();
 			System.out.println("-------------------------------------------------------------");
+			
 			menu();
 			break;
 		case 2:
 			s.add();
 			System.out.println("-------------------------------------------------------------");
+			
 			menu();
 			break;
 		case 3:
 			s.remove();
 			System.out.println("-------------------------------------------------------------");
+			
 		menu();
 		}
 	}       
